@@ -1,0 +1,7 @@
+plugin {
+    name = "allshops"
+    packageName = "org.apollo.game.plugin.allshops"
+    authors = [
+            "tlf30",
+    ]
+}
