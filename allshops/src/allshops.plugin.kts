@@ -19,7 +19,7 @@ shop("'Two Feet' Charley's Fish Shop") {
     }
 }
 
-shop("Aaron's Archery Appendages") {
+/*shop("Aaron's Archery Appendages") {
     operated by "Anita"(672)
 
     sell(10) of {
@@ -31,7 +31,7 @@ shop("Aaron's Archery Appendages") {
         - "Studded body"(1133)
         - "Studded chaps"(1097)
     }
-}
+}*/
 
 shop("Aemad's Adventuring Supplies") {
     operated by "Aemad"(590)
@@ -91,14 +91,14 @@ shop("Al Kharid General Store") {
     }
 }
 
-shop("Ali the Carter") {
+/*shop("Ali the Carter") {
     operated by "Ali the Carter"(3030)
     buys any items
 
     sell(1000) of {"Waterskin(4)"(1823)}
-}
+}*/
 
-shop("Ali's Discount Wares") {
+/*shop("Ali's Discount Wares") {
     operated by "Ali Morrisane"(1862)
 
     sell(30) of {"Pot"(1931)}
@@ -116,7 +116,7 @@ shop("Ali's Discount Wares") {
         - "Bronze pickaxe"(1265)
         - "Raw chicken"(2138)
     }
-}
+}*/
 
 shop("Alice's Farming Shop") {
     operated by "Alice"(2307)
@@ -154,11 +154,11 @@ shop("Alice's Farming Shop") {
     }
 }
 
-shop("Apothecary") {
+/*shop("Apothecary") {
     operated by "Apothecary"(638)
 
     sell(30) of {"Strength potion(4)"(113)}
-}
+}*/
 
 shop("Ardougne Bakers Stall") {
     operated by "Baker"(571)
@@ -280,11 +280,11 @@ shop("Bandit Bargains") {
     }
 }
 
-shop("Bandit Camp Bar") {
+/*shop("Bandit Camp Bar") {
     operated by "Bartender"(731)
 
     sell(10) of {"Bandit's brew"(4627)}
-}
+}*/
 
 shop("Bandit Duty Free") {
     operated by "Noterazzo"(597)
@@ -301,11 +301,11 @@ shop("Bandit Duty Free") {
     }
 }
 
-shop("Baraek's Fur Shop") {
+/*shop("Baraek's Fur Shop") {
     operated by "Baraek"(547)
 
     sell(1000) of {"Fur"(6814)}
-}
+}*/
 
 shop("Barker's Haberdashery") {
     operated by "Barker"(1039)
@@ -413,7 +413,7 @@ shop("Bolkoy's Village Shop") {
     }
 }
 
-shop("Bolongo's Farming Supplies") {
+/*shop("Bolongo's Farming Supplies") {
     operated by "Bolongo"(2343)
 
     sell(1000) of {
@@ -424,7 +424,7 @@ shop("Bolongo's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Brian's Archery Shop") {
     operated by "Brian"(1860)
@@ -535,7 +535,7 @@ shop("Dal's General Ogre Supplies") {
     }
 }
 
-shop("Dantaera's Farming Supplies") {
+/*shop("Dantaera's Farming Supplies") {
     operated by "Dantaera"(2324)
 
     sell(1000) of {
@@ -546,7 +546,7 @@ shop("Dantaera's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Dargaud's Bow and Arrows") {
     operated by "Bow and Arrow salesman"(683)
@@ -645,7 +645,7 @@ shop("Draynor Seed Market") {
     }
 }
 
-shop("Dreven's Farming Supplies") {
+/*shop("Dreven's Farming Supplies") {
     operated by "Dreven"(2335)
 
     sell(1000) of {
@@ -656,7 +656,7 @@ shop("Dreven's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Drogo's Mining Emporium") {
     operated by "Drogo dwarf"(579)
@@ -733,7 +733,7 @@ shop("Edward's Wilderness Cape Shop") {
     }
 }
 
-shop("Ellena's Farming Supplies") {
+/*shop("Ellena's Farming Supplies") {
     operated by "Ellena"(2331)
 
     sell(1000) of {
@@ -744,9 +744,9 @@ shop("Ellena's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
-shop("Elstan's Farming Supplies") {
+/*shop("Elstan's Farming Supplies") {
     operated by "Elstan"(2323)
 
     sell(1000) of {
@@ -757,7 +757,7 @@ shop("Elstan's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Etceteria Fish") {
     operated by "Fishmonger"(1369)
@@ -832,7 +832,7 @@ shop("Fancy Clothes Store") {
     }
 }
 
-shop("Fayeth's Farming Supplies") {
+/*shop("Fayeth's Farming Supplies") {
     operated by "Fayeth"(2342)
 
     sell(1000) of {
@@ -843,7 +843,7 @@ shop("Fayeth's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Fernahei's Fishing Hut") {
     operated by "Fernahei"(517)
@@ -892,7 +892,7 @@ shop("Flynn's Mace Shop") {
     }
 }
 
-shop("Francis's Farming Supplies") {
+/*shop("Francis's Farming Supplies") {
     operated by "Francis"(2327)
 
     sell(1000) of {
@@ -903,7 +903,7 @@ shop("Francis's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Fremennik Fish Monger") {
     operated by "Fishmonger"(1393)
@@ -1007,7 +1007,7 @@ shop("Gaius's Two Handeds") {
     }
 }
 
-shop("Garth's Farming Supplies") {
+/*shop("Garth's Farming Supplies") {
     operated by "Garth"(2330)
 
     sell(1000) of {
@@ -1018,7 +1018,7 @@ shop("Garth's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Gem Trader") {
     operated by "Gem trader"(540)
@@ -1079,7 +1079,7 @@ shop("Gerrant's Fishy Business") {
     }
 }
 
-shop("Gileth's Farming Supplies") {
+/*shop("Gileth's Farming Supplies") {
     operated by "Gileth"(2344)
 
     sell(1000) of {
@@ -1090,9 +1090,9 @@ shop("Gileth's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
-shop("Grand Tree Groceries") {
+/*shop("Grand Tree Groceries") {
     operated by "Hudon"(305)
 
     sell(10) of {
@@ -1121,7 +1121,7 @@ shop("Grand Tree Groceries") {
         - "Crunchy tray"(2165)
         - "Gnomebowl mould"(2166)
     }
-}
+}*/
 
 shop("Green Gemstone Gems") {
     operated by "Hervi"(2157)
@@ -1283,7 +1283,7 @@ shop("Herquin's Gems") {
     }
 }
 
-shop("Heskel's Farming Supplies") {
+/*shop("Heskel's Farming Supplies") {
     operated by "Heskel"(2340)
 
     sell(1000) of {
@@ -1294,7 +1294,7 @@ shop("Heskel's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Hickton's Archery Emporium") {
     operated by "Hickton"(575)
@@ -1449,7 +1449,7 @@ shop("Legends' Guild Shop of Useful Items") {
     }
 }
 
-shop("Kragen's Farming Supplies") {
+/*shop("Kragen's Farming Supplies") {
     operated by "Kragen"(2325)
 
     sell(1000) of {
@@ -1460,7 +1460,7 @@ shop("Kragen's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Legends' Guild General Store") {
     operated by "Fionella"(932)
@@ -1525,7 +1525,7 @@ shop("Lundail's Arena-side Rune Shop") {
     }
 }
 
-shop("Lyra's Farming Supplies") {
+/*shop("Lyra's Farming Supplies") {
     operated by "Lyra"(2326)
 
     sell(1000) of {
@@ -1536,7 +1536,7 @@ shop("Lyra's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Magic Guild Robe Store") {
     operated by "Robe Store owner"(1658)
@@ -1615,7 +1615,7 @@ shop("Pickaxe-Is-Mine") {
     }
 }
 
-shop("Pie Shop") {
+/*shop("Pie Shop") {
     operated by "Priest"(3206)
 
     sell(10) of {"Pie recipe book"(7162)}
@@ -1629,7 +1629,7 @@ shop("Pie Shop") {
         - "Meat pie"(2327)
         - "Redberry pie"(2325)
     }
-}
+}*/
 
 shop("Pollnivneach General Store") {
     operated by "Market seller"(1866)
@@ -1747,7 +1747,7 @@ shop("Rasolo the Wandering Merchant") {
     }
 }
 
-shop("Razmire General Store") {
+/*shop("Razmire General Store") {
     operated by "Razmire Keelgan"(1254)
     buys any items
 
@@ -1764,9 +1764,9 @@ shop("Razmire General Store") {
         - "Pot of flour"(1933)
         - "Flamtaer hammer"(3678)
     }
-}
+}*/
 
-shop("Rhonen's Farming Supplies") {
+/*shop("Rhonen's Farming Supplies") {
     operated by "Rhonen"(2334)
 
     sell(1000) of {
@@ -1777,9 +1777,9 @@ shop("Rhonen's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
-shop("Richard's Farming Shop") {
+/*shop("Richard's Farming Shop") {
     operated by "Richard"(2306)
 
     sell(100) of {"Plant pot"(5354)}
@@ -1812,7 +1812,7 @@ shop("Richard's Farming Shop") {
         - "Empty sack"(5418)
         - "Basket"(5376)
     }
-}
+}*/
 
 shop("Richard's Wilderness Cape Shop") {
     operated by "Richard"(1783)
@@ -1913,7 +1913,7 @@ shop("Sam's Wilderness Cape Shop") {
     }
 }
 
-shop("Sarah's Farming Shop") {
+/*shop("Sarah's Farming Shop") {
     operated by "Sarah"(2304)
 
     sell(100) of {"Plant pot"(5354)}
@@ -1946,7 +1946,7 @@ shop("Sarah's Farming Shop") {
         - "Basket"(5376)
         - "Plant cure"(6036)
     }
-}
+}*/
 
 shop("Scavvo's Rune Store") {
     operated by "Scavvo"(537)
@@ -1978,7 +1978,7 @@ shop("Seddu's Adventurer's Store") {
     }
 }
 
-shop("Selena's Farming Supplies") {
+/*shop("Selena's Farming Supplies") {
     operated by "Selena"(2332)
 
     sell(1000) of {
@@ -1989,7 +1989,7 @@ shop("Selena's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Sigmund the Merchant") {
     operated by "Sigmund The Merchant"(1282)
@@ -2038,13 +2038,13 @@ shop("Solihib's Food Shop") {
     }
 }
 
-shop("Strange Old Man") {
+/*shop("Strange Old Man") {
     operated by "Strange Old Man"(2024)
 
     sell(100) of {"Spade"(952)}
-}
+}*/
 
-shop("Taria's Farming Supplies") {
+/*shop("Taria's Farming Supplies") {
     operated by "Taria"(2336)
 
     sell(1000) of {
@@ -2055,7 +2055,7 @@ shop("Taria's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("The Shrimp and Parrot") {
     operated by "Alfonse the waiter"(793)
@@ -2070,14 +2070,14 @@ shop("The Shrimp and Parrot") {
     }
 }
 
-shop("The Spice Is Right") {
+/*shop("The Spice Is Right") {
     operated by "Embalmer"(1980)
 
     sell(10) of {"Gnome spice"(2169)}
     sell(10) of {"Curry leaf"(5970)}
     sell(30) of {"Pot"(1931)}
     sell(30) of {"Antipoison(3)"(175)}
-}
+}*/
 
 shop("Tony's Pizza Bases") {
     operated by "Fat Tony"(596)
@@ -2085,7 +2085,7 @@ shop("Tony's Pizza Bases") {
     sell(10) of {"Pizza base"(2283)}
 }
 
-shop("Torrell's Farming Supplies") {
+/*shop("Torrell's Farming Supplies") {
     operated by "Torrell"(2338)
 
     sell(1000) of {
@@ -2096,9 +2096,9 @@ shop("Torrell's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
-shop("Treznor's Farming Supplies") {
+/*shop("Treznor's Farming Supplies") {
     operated by "Treznor"(2341)
 
     sell(1000) of {
@@ -2109,7 +2109,7 @@ shop("Treznor's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("TzHaar-Hur-Lek's Ore and Gem Store") {
     operated by "TzHaar-Hur-Lek"(2622)
@@ -2154,7 +2154,7 @@ shop("TzHaar-Mej-Roh's Rune Store") {
     }
 }
 
-shop("Vanessa's Farming Shop") {
+/*shop("Vanessa's Farming Shop") {
     operated by "Vanessa"(2305)
 
     sell(100) of {"Plant pot"(5354)}
@@ -2187,9 +2187,9 @@ shop("Vanessa's Farming Shop") {
         - "Basket"(5376)
         - "Plant cure"(6036)
     }
-}
+}*/
 
-shop("Vasquen's Farming Supplies") {
+/*shop("Vasquen's Farming Supplies") {
     operated by "Vasquen"(2333)
 
     sell(1000) of {
@@ -2200,7 +2200,7 @@ shop("Vasquen's Farming Supplies") {
         - "Seed dibber"(5343)
         - "Watering can"(5331)
     }
-}
+}*/
 
 shop("Wayne's Chains") {
     operated by "Wayne"(581)
@@ -2314,7 +2314,7 @@ shop("Zenesha's Platebody Shop") {
     }
 }
 
-shop("Slayer Equipment") {
+/*shop("Slayer Equipment") {
     operated by "Wizard"(1263)
 
     sell(100) of {
@@ -2336,7 +2336,7 @@ shop("Slayer Equipment") {
         - "Rock hammer"(4162)
         - "Mirror shield"(4156)
     }
-}
+}*/
 
 shop("Jatix Herblore Shop") {
     operated by "Jatix"(587)
@@ -2395,9 +2395,9 @@ shop("My Glove Collection") {
     }
 }
 
-shop("Father Aereck Homeless Cat's") {
+/*shop("Father Aereck Homeless Cat's") {
     operated by "Observatory professor"(488)
 
     sell(1) of {"Pet cat"(1561)}
     sell(1) of {"Wily hellcat"(7585)}
-}
+}*/
