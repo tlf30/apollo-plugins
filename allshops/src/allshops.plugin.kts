@@ -1,3 +1,5 @@
+import org.apollo.game.plugin.shops.shop
+
 shop("'Two Feet' Charley's Fish Shop") {
     operated by "Charley"(3161)
 
