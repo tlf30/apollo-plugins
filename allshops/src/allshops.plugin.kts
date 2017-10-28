@@ -36,8 +36,8 @@ shop("Aaron's Archery Appendages") {
 shop("Aemad's Adventuring Supplies") {
     operated by "Aemad"(590)
 
-    sell(100) of "Ball of wool"(1759)
-    sell(1000) of "Bronze arrow"(882)
+    sell(100) of {"Ball of wool"(1759)}
+    sell(1000) of {"Bronze arrow"(882)}
     sell(10) of {
         - "Bronze pickaxe"(1265)
         - "Cooked meat"(4293)
@@ -70,15 +70,15 @@ shop("Agmundi Quality Clothes") {
 shop("Ak-Haranu's Exotic Shop") {
     operated by "Ak-Haranu"(1688)
 
-    sell(100) of "Bolt rack"(4740)
+    sell(100) of {"Bolt rack"(4740)}
 }
 
 shop("Al Kharid General Store") {
     operated by "Shop keeper"(524) and "Shop assistant"(525)
     buys any items
 
-    sell(30) of "Bucket"(1925)
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Bucket"(1925)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Bowl"(1923)
         - "Cake tin"(1887)
@@ -95,14 +95,14 @@ shop("Ali the Carter") {
     operated by "Ali the Carter"(3030)
     buys any items
 
-    sell(1000) of "Waterskin(4)"(1823)
+    sell(1000) of {"Waterskin(4)"(1823)}
 }
 
 shop("Ali's Discount Wares") {
     operated by "Ali Morrisane"(1862)
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Waterskin(4)"(1823)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Waterskin(4)"(1823)}
     sell(10) of {
         - "Jug"(1935)
         - "Desert shirt"(1833)
@@ -121,9 +121,9 @@ shop("Ali's Discount Wares") {
 shop("Alice's Farming Shop") {
     operated by "Alice"(2307)
 
-    sell(100) of "Plant pot"(5354)
-    sell(100) of "Bucket"(1925)
-    sell(300) of "Compost"(6032)
+    sell(100) of {"Plant pot"(5354)}
+    sell(100) of {"Bucket"(1925)}
+    sell(300) of {"Compost"(6032)}
     sell(0) of {
         - "Asgarnian seed"(5308)
         - "Asgarnian hops"(5996)
@@ -157,13 +157,13 @@ shop("Alice's Farming Shop") {
 shop("Apothecary") {
     operated by "Apothecary"(638)
 
-    sell(30) of "Strength potion(4)"(113)
+    sell(30) of {"Strength potion(4)"(113)}
 }
 
 shop("Ardougne Bakers Stall") {
     operated by "Baker"(571)
 
-    sell(100) of "Chocolate bar"(1973)
+    sell(100) of {"Chocolate bar"(1973)}
     sell(10) of {
         - "Bread"(2309)
         - "Cake"(1891)
@@ -174,8 +174,8 @@ shop("Ardougne Bakers Stall") {
 shop("Ardougne Fur Stall") {
     operated by "Fur trader"(573)
 
-    sell(10) of "Bear fur"(948)
-    sell(10) of "Grey wolf fur"(958)
+    sell(10) of {"Bear fur"(948)}
+    sell(10) of {"Grey wolf fur"(958)}
 }
 
 shop("Ardougne Gem Stall") {
@@ -192,8 +192,8 @@ shop("Ardougne Gem Stall") {
 shop("Arhein's shop") {
     operated by "Arhein"(563)
 
-    sell(30) of "Bucket"(1925)
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Bucket"(1925)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Bowl"(1923)
         - "Cake tin"(1887)
@@ -212,7 +212,7 @@ shop("Arhein's shop") {
 shop("Arnold's Eclectic Supplies") {
     operated by "Arnold Lydspor"(3824)
 
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Beer"(1917)
         - "Bread"(2309)
@@ -264,8 +264,8 @@ shop("Bandit Bargains") {
     operated by "Bandit shopkeeper"(1917)
     buys any items
 
-    sell(30) of "Waterskin(0)"(1831)
-    sell(30) of "Waterskin(4)"(1823)
+    sell(30) of {"Waterskin(0)"(1831)}
+    sell(30) of {"Waterskin(4)"(1823)}
     sell(10) of {
         - "Jug of water"(1937)
         - "Bowl of water"(1921)
@@ -283,14 +283,14 @@ shop("Bandit Bargains") {
 shop("Bandit Camp Bar") {
     operated by "Bartender"(731)
 
-    sell(10) of "Bandit's brew"(4627)
+    sell(10) of {"Bandit's brew"(4627)}
 }
 
 shop("Bandit Duty Free") {
     operated by "Noterazzo"(597)
     buys any items
 
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Jug"(1935)
         - "Tinderbox"(590)
@@ -304,7 +304,7 @@ shop("Bandit Duty Free") {
 shop("Baraek's Fur Shop") {
     operated by "Baraek"(547)
 
-    sell(1000) of "Fur"(6814)
+    sell(1000) of {"Fur"(6814)}
 }
 
 shop("Barker's Haberdashery") {
@@ -346,9 +346,9 @@ shop("Barker's Haberdashery") {
 shop("Battle Runes") {
     operated by "Mage of Zamorak"(2258)
 
-    sell(100) of "Death rune"(560)
-    sell(100) of "Blood rune"(565)
-    sell(300) of "Chaos rune"(562)
+    sell(100) of {"Death rune"(560)}
+    sell(100) of {"Blood rune"(565)}
+    sell(300) of {"Chaos rune"(562)}
     sell(1000) of {
         - "Fire rune"(554)
         - "Water rune"(555)
@@ -362,7 +362,7 @@ shop("Battle Runes") {
 shop("Betty's Magic Emporium") {
     operated by "Betty"(583)
 
-    sell(30) of "Chaos rune"(562)
+    sell(30) of {"Chaos rune"(562)}
     sell(100) of {
         - "Mind rune"(558)
         - "Body rune"(559)
@@ -399,9 +399,9 @@ shop("Bolkoy's Village Shop") {
     operated by "Bolkoy"(471)
     buys any items
 
-    sell(1000) of "Bronze arrow"(882)
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(1000) of {"Bronze arrow"(882)}
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Bronze pickaxe"(1265)
         - "Jug"(1935)
@@ -429,9 +429,9 @@ shop("Bolongo's Farming Supplies") {
 shop("Brian's Archery Shop") {
     operated by "Brian"(1860)
 
-    sell(0) of "Adamant arrow"(890)
-    sell(100) of "Steel arrow"(886)
-    sell(30) of "Mithril arrow"(888)
+    sell(0) of {"Adamant arrow"(890)}
+    sell(100) of {"Steel arrow"(886)}
+    sell(30) of {"Mithril arrow"(888)}
     sell(10) of {
         - "Oak shortbow"(843)
         - "Oak longbow"(845)
@@ -459,8 +459,8 @@ shop("Burthorpe Supplies") {
     operated by "Wistan"(1083)
     buys any items
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Shears"(1735)
@@ -475,15 +475,15 @@ shop("Burthorpe Supplies") {
 shop("Candle Shop") {
     operated by "Candle maker"(562)
 
-    sell(10) of "Candle"(36)
-    sell(10) of "Black candle"(38)
+    sell(10) of {"Candle"(36)}
+    sell(10) of {"Black candle"(38)}
 }
 
 shop("Carefree Crafting Stall") {
     operated by "Nolar"(2158)
 
-    sell(100) of "Ball of wool"(1759)
-    sell(1000) of "Thread"(1734)
+    sell(100) of {"Ball of wool"(1759)}
+    sell(1000) of {"Thread"(1734)}
     sell(10) of {
         - "Chisel"(1755)
         - "Ring mould"(1592)
@@ -524,8 +524,8 @@ shop("Dal's General Ogre Supplies") {
     operated by "Ogre trader"(873)
     buys any items
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Knife"(946)
@@ -551,10 +551,10 @@ shop("Dantaera's Farming Supplies") {
 shop("Dargaud's Bow and Arrows") {
     operated by "Bow and Arrow salesman"(683)
 
-    sell(1000) of "Arrow shaft"(52)
-    sell(300) of "Bronze arrowtips"(39)
-    sell(300) of "Iron arrowtips"(40)
-    sell(30) of "Rune arrowtips"(44)
+    sell(1000) of {"Arrow shaft"(52)}
+    sell(300) of {"Bronze arrowtips"(39)}
+    sell(300) of {"Iron arrowtips"(40)}
+    sell(30) of {"Rune arrowtips"(44)}
     sell(0) of {
         - "Bronze brutal"(4773)
         - "Comp ogre bow"(4827)
@@ -607,7 +607,7 @@ shop("Davon's Amulet Store") {
 shop("Dommik's Crafting Shop") {
     operated by "Dommik"(545)
 
-    sell(1000) of "Thread"(1734)
+    sell(1000) of {"Thread"(1734)}
     sell(10) of {
         - "Chisel"(1755)
         - "Ring mould"(1592)
@@ -661,8 +661,8 @@ shop("Dreven's Farming Supplies") {
 shop("Drogo's Mining Emporium") {
     operated by "Drogo dwarf"(579)
 
-    sell(10) of "Hammer"(2347)
-    sell(10) of "Bronze pickaxe"(1265)
+    sell(10) of {"Hammer"(2347)}
+    sell(10) of {"Bronze pickaxe"(1265)}
     sell(0) of {
         - "Super attack(4)"(2436)
         - "Tin ore"(438)
@@ -695,8 +695,8 @@ shop("Edgeville General Store") {
     operated by "Shop keeper"(520) and "Shop assistant"(521)
     buys any items
 
-    sell(30) of "Bucket"(1925)
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Bucket"(1925)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Bowl"(1923)
         - "Cake tin"(1887)
@@ -762,9 +762,9 @@ shop("Elstan's Farming Supplies") {
 shop("Etceteria Fish") {
     operated by "Fishmonger"(1369)
 
-    sell(1000) of "Fishing bait"(313)
-    sell(1000) of "Feather"(314)
-    sell(30) of "Harpoon"(311)
+    sell(1000) of {"Fishing bait"(313)}
+    sell(1000) of {"Feather"(314)}
+    sell(30) of {"Harpoon"(311)}
     sell(0) of {
         - "Raw shrimps"(317)
         - "Raw herring"(345)
@@ -794,8 +794,8 @@ shop("Falador General Store") {
     operated by "Shop keeper"(526) and "Shop assistant"(527)
     buys any items
 
-    sell(30) of "Bucket"(1925)
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Bucket"(1925)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Bowl"(1923)
         - "Cake tin"(1887)
@@ -811,8 +811,8 @@ shop("Falador General Store") {
 shop("Fancy Clothes Store") {
     operated by "Fancy dress shop owner"(554)
 
-    sell(1000) of "Thread"(1734)
-    sell(30) of "Leather gloves"(1059)
+    sell(1000) of {"Thread"(1734)}
+    sell(30) of {"Leather gloves"(1059)}
     sell(10) of {
         - "Chef's hat"(1949)
         - "Wizard hat"(579)
@@ -848,10 +848,10 @@ shop("Fayeth's Farming Supplies") {
 shop("Fernahei's Fishing Hut") {
     operated by "Fernahei"(517)
 
-    sell(1000) of "Fishing bait"(313)
-    sell(1000) of "Feather"(314)
-    sell(10) of "Fishing rod"(307)
-    sell(10) of "Fly fishing rod"(309)
+    sell(1000) of {"Fishing bait"(313)}
+    sell(1000) of {"Feather"(314)}
+    sell(10) of {"Fishing rod"(307)}
+    sell(10) of {"Fly fishing rod"(309)}
     sell(0) of {
         - "Raw trout"(335)
         - "Raw pike"(349)
@@ -862,8 +862,8 @@ shop("Fernahei's Fishing Hut") {
 shop("Fishing Guild Shop") {
     operated by "Roachey"(592)
 
-    sell(1000) of "Fishing bait"(313)
-    sell(1000) of "Feather"(314)
+    sell(1000) of {"Fishing bait"(313)}
+    sell(1000) of {"Feather"(314)}
     sell(0) of {
         - "Raw bass"(363)
         - "Raw cod"(341)
@@ -908,9 +908,9 @@ shop("Francis's Farming Supplies") {
 shop("Fremennik Fish Monger") {
     operated by "Fishmonger"(1393)
 
-    sell(1000) of "Fishing bait"(313)
-    sell(1000) of "Feather"(314)
-    sell(30) of "Harpoon"(311)
+    sell(1000) of {"Fishing bait"(313)}
+    sell(1000) of {"Feather"(314)}
+    sell(30) of {"Harpoon"(311)}
     sell(0) of {
         - "Raw shrimps"(317)
         - "Raw herring"(345)
@@ -939,16 +939,16 @@ shop("Fremennik Fish Monger") {
 shop("Fremennik Fur Trader") {
     operated by "Fur trader"(1316)
 
-    sell(10) of "Bear fur"(948)
-    sell(10) of "Grey wolf fur"(958)
+    sell(10) of {"Bear fur"(948)}
+    sell(10) of {"Grey wolf fur"(958)}
 }
 
 shop("Frenita's Fine Cookery") {
     operated by "Frenita"(593)
 
-    sell(0) of "Cooking apple"(1955)
-    sell(500) of "Pot of flour"(1933)
-    sell(30) of "Pot"(1931)
+    sell(0) of {"Cooking apple"(1955)}
+    sell(500) of {"Pot of flour"(1933)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Pie dish"(2313)
         - "Cake tin"(1887)
@@ -1039,9 +1039,9 @@ shop("Canifis General Store") {
     operated by "Fidelio"(1040)
     buys any items
 
-    sell(1000) of "Thread"(1734)
-    sell(30) of "Bucket"(1925)
-    sell(30) of "Pot"(1931)
+    sell(1000) of {"Thread"(1734)}
+    sell(30) of {"Bucket"(1925)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Chisel"(1755)
         - "Hammer"(2347)
@@ -1056,8 +1056,8 @@ shop("Canifis General Store") {
 shop("Gerrant's Fishy Business") {
     operated by "Gerrant"(558) and "Gerrant"(2720)
 
-    sell(1000) of "Fishing bait"(313)
-    sell(1000) of "Feather"(314)
+    sell(1000) of {"Fishing bait"(313)}
+    sell(1000) of {"Feather"(314)}
     sell(0) of {
         - "Shrimps"(315)
         - "Herring"(347)
@@ -1169,7 +1169,7 @@ shop("Grum's Gold Exchange") {
 shop("Gulluck and Sons") {
     operated by "Gulluck"(602)
 
-    sell(1000) of "Bronze arrow"(882)
+    sell(1000) of {"Bronze arrow"(882)}
     sell(100) of {
         - "Bronze arrowtips"(39)
         - "Iron arrowtips"(40)
@@ -1197,8 +1197,8 @@ shop("Gunslik's Assorted Supplies") {
     operated by "Gunslik"(2154)
     buys any items
 
-    sell(300) of "Vial"(229)
-    sell(30) of "Bucket"(1925)
+    sell(300) of {"Vial"(229)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Tinderbox"(590)
@@ -1215,8 +1215,8 @@ shop("Gunslik's Assorted Supplies") {
 shop("Hamab's Crafting Emporium") {
     operated by "Hamab"(1437)
 
-    sell(100) of "Ball of wool"(1759)
-    sell(1000) of "Thread"(1734)
+    sell(100) of {"Ball of wool"(1759)}
+    sell(1000) of {"Thread"(1734)}
     sell(10) of {
         - "Chisel"(1755)
         - "Ring mould"(1592)
@@ -1229,8 +1229,8 @@ shop("Hamab's Crafting Emporium") {
 shop("Harry's Fishing Shop") {
     operated by "Harry"(576)
 
-    sell(1000) of "Fly fishing rod"(309)
-    sell(1000) of "Lobster pot"(301)
+    sell(1000) of {"Fly fishing rod"(309)}
+    sell(1000) of {"Lobster pot"(301)}
     sell(10) of {
         - "Small fishing net"(303)
         - "Fishing rod"(307)
@@ -1299,8 +1299,8 @@ shop("Heskel's Farming Supplies") {
 shop("Hickton's Archery Emporium") {
     operated by "Hickton"(575)
 
-    sell(1000) of "Bronze arrow"(882)
-    sell(30) of "Adamant arrowtips"(43)
+    sell(1000) of {"Bronze arrow"(882)}
+    sell(30) of {"Adamant arrowtips"(43)}
     sell(0) of {
         - "Steel arrow"(886)
         - "Mithril arrow"(888)
@@ -1348,7 +1348,7 @@ shop("Ian's Wilderness Shop") {
 shop("Ifaba's General Store") {
     operated by "Ifaba"(1436)
 
-    sell(30) of "Pot"(1931)
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Jug"(1935)
         - "Rope"(954)
@@ -1359,15 +1359,15 @@ shop("Ifaba's General Store") {
 shop("Irksol's Jewels") {
     operated by "Irksol"(566)
 
-    sell(10) of "Ruby ring"(1641)
+    sell(10) of {"Ruby ring"(1641)}
 }
 
 shop("Jiminua's Jungle Store") {
     operated by "Jiminua"(560)
 
-    sell(300) of "Vial"(229)
-    sell(300) of "Vial of water"(227)
-    sell(30) of "Pot"(1931)
+    sell(300) of {"Vial"(229)}
+    sell(300) of {"Vial of water"(227)}
+    sell(30) of {"Pot"(1931)}
     sell(10) of {
         - "Tinderbox"(590)
         - "Candle"(36)
@@ -1395,16 +1395,16 @@ shop("Jiminua's Jungle Store") {
 shop("Jukat's Weapons") {
     operated by "Jukat"(564)
 
-    sell(10) of "Dragon longsword"(1305)
-    sell(30) of "Dragon dagger"(1215)
+    sell(10) of {"Dragon longsword"(1305)}
+    sell(30) of {"Dragon dagger"(1215)}
 }
 
 shop("Karamja General Store") {
     operated by "Shop keeper"(532)
     buys any items
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Shears"(1735)
@@ -1429,7 +1429,7 @@ shop("Karamja Wines, Spirits, and Beers") {
 shop("Keldagrim's Best Bread") {
     operated by "Randivor"(2156)
 
-    sell(100) of "Chocolate bar"(1973)
+    sell(100) of {"Chocolate bar"(1973)}
     sell(10) of {
         - "Bread"(2309)
         - "Cake"(1891)
@@ -1440,7 +1440,7 @@ shop("Keldagrim's Best Bread") {
 shop("Legends' Guild Shop of Useful Items") {
     operated by "Siegfried Erkle"(933)
 
-    sell(500) of "Mithril seeds"(299)
+    sell(500) of {"Mithril seeds"(299)}
     sell(10) of {
         - "Dusty key"(1590)
         - "Maze key"(1542)
@@ -1491,8 +1491,8 @@ shop("Lumbridge General Store") {
     operated by "Shop keeper"(528) and "Shop assistant"(529)
     buys any items
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Shears"(1735)
@@ -1508,8 +1508,8 @@ shop("Lumbridge General Store") {
 shop("Lundail's Arena-side Rune Shop") {
     operated by "Lundail"(903)
 
-    sell(100) of "Law rune"(563)
-    sell(100) of "Cosmic rune"(564)
+    sell(100) of {"Law rune"(563)}
+    sell(100) of {"Cosmic rune"(564)}
     sell(1000) of {
         - "Fire rune"(554)
         - "Water rune"(555)
@@ -1553,8 +1553,8 @@ shop("Magic Guild Robe Store") {
 shop("Magic Guild Rune Store") {
     operated by "Magic Store owner"(461)
 
-    sell(300) of "Chaos rune"(562)
-    sell(300) of "Nature rune"(561)
+    sell(300) of {"Chaos rune"(562)}
+    sell(300) of {"Nature rune"(561)}
     sell(100) of {
         - "Law rune"(563)
         - "Blood rune"(565)
@@ -1580,7 +1580,7 @@ shop("Magic Guild Rune Store") {
 shop("Nulodion's Multicannon Parts") {
     operated by "Nulodion"(209)
 
-    sell(0) of "Cannon base"(6)
+    sell(0) of {"Cannon base"(6)}
     sell(10) of {
         - "Cannon stand"(8)
         - "Cannon furnace"(12)
@@ -1618,7 +1618,7 @@ shop("Pickaxe-Is-Mine") {
 shop("Pie Shop") {
     operated by "Priest"(3206)
 
-    sell(10) of "Pie recipe book"(7162)
+    sell(10) of {"Pie recipe book"(7162)}
     sell(0) of {
         - "Summer pie"(7218)
         - "Wild pie"(7208)
@@ -1658,8 +1658,8 @@ shop("Port Phasmatys General Store") {
     operated by "Ghost shopkeeper"(1699)
     buys any items
 
-    sell(300) of "Pot"(1931)
-    sell(300) of "Bucket"(1925)
+    sell(300) of {"Pot"(1931)}
+    sell(300) of {"Bucket"(1925)}
     sell(10) of {
         - "Shears"(1735)
         - "Jug"(1935)
@@ -1688,8 +1688,8 @@ shop("Quality Armour Shop") {
 shop("Quality Weapons Shop") {
     operated by "Santiri"(2152)
 
-    sell(100) of "Mithril arrow"(888)
-    sell(100) of "Adamant arrow"(890)
+    sell(100) of {"Mithril arrow"(888)}
+    sell(100) of {"Adamant arrow"(890)}
     sell(10) of {
         - "Steel battleaxe"(1365)
         - "Mithril battleaxe"(1369)
@@ -1719,7 +1719,7 @@ shop("Ranael's Super Skirt Store") {
 shop("Rasolo the Wandering Merchant") {
     operated by "Rasolo"(1972)
 
-    sell(30) of "Dragon dagger"(1215)
+    sell(30) of {"Dragon dagger"(1215)}
     sell(10) of {
         - "Spinach roll"(1969)
         - "Cocktail guide"(2023)
@@ -1751,10 +1751,10 @@ shop("Razmire General Store") {
     operated by "Razmire Keelgan"(1254)
     buys any items
 
-    sell(500) of "Olive oil(3)"(3424)
-    sell(300) of "Vial of water"(227)
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(500) of {"Olive oil(3)"(3424)}
+    sell(300) of {"Vial of water"(227)}
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Shears"(1735)
@@ -1782,10 +1782,10 @@ shop("Rhonen's Farming Supplies") {
 shop("Richard's Farming Shop") {
     operated by "Richard"(2306)
 
-    sell(100) of "Plant pot"(5354)
-    sell(100) of "Bucket"(1925)
-    sell(300) of "Compost"(6032)
-    sell(30) of "Watering can"(5331)
+    sell(100) of {"Plant pot"(5354)}
+    sell(100) of {"Bucket"(1925)}
+    sell(300) of {"Compost"(6032)}
+    sell(30) of {"Watering can"(5331)}
     sell(0) of {
         - "Potato"(1942)
         - "Onion"(1957)
@@ -1829,8 +1829,8 @@ shop("Richard's Wilderness Cape Shop") {
 shop("Rimmington General Store") {
     operated by "Shop keeper"(530)
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Shears"(1735)
@@ -1873,8 +1873,8 @@ shop("Rometti's Fine Fashions") {
 shop("Rommik's Crafting Shop") {
     operated by "Rommik"(585)
 
-    sell(0) of "Chisel"(1755)
-    sell(1000) of "Thread"(1734)
+    sell(0) of {"Chisel"(1755)}
+    sell(1000) of {"Thread"(1734)}
     sell(10) of {
         - "Ring mould"(1592)
         - "Necklace mould"(1597)
@@ -1889,10 +1889,10 @@ shop("Rommik's Crafting Shop") {
 shop("Rufus' Meat Emporium") {
     operated by "Rufus"(1038)
 
-    sell(100) of "Raw beef"(2132)
-    sell(10) of "Raw rat meat"(2134)
-    sell(10) of "Raw bear meat"(2136)
-    sell(30) of "Raw chicken"(2138)
+    sell(100) of {"Raw beef"(2132)}
+    sell(10) of {"Raw rat meat"(2134)}
+    sell(10) of {"Raw bear meat"(2136)}
+    sell(30) of {"Raw chicken"(2138)}
     sell(0) of {
         - "Raw trout"(335)
         - "Raw pike"(349)
@@ -1916,10 +1916,10 @@ shop("Sam's Wilderness Cape Shop") {
 shop("Sarah's Farming Shop") {
     operated by "Sarah"(2304)
 
-    sell(100) of "Plant pot"(5354)
-    sell(100) of "Bucket"(1925)
-    sell(300) of "Compost"(6032)
-    sell(30) of "Watering can"(5331)
+    sell(100) of {"Plant pot"(5354)}
+    sell(100) of {"Bucket"(1925)}
+    sell(300) of {"Compost"(6032)}
+    sell(30) of {"Watering can"(5331)}
     sell(0) of {
         - "Potato"(1942)
         - "Onion"(1957)
@@ -1995,8 +1995,8 @@ shop("Sigmund the Merchant") {
     operated by "Sigmund The Merchant"(1282)
     buys any items
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Tinderbox"(590)
         - "Rope"(954)
@@ -2041,7 +2041,7 @@ shop("Solihib's Food Shop") {
 shop("Strange Old Man") {
     operated by "Strange Old Man"(2024)
 
-    sell(100) of "Spade"(952)
+    sell(100) of {"Spade"(952)}
 }
 
 shop("Taria's Farming Supplies") {
@@ -2060,7 +2060,7 @@ shop("Taria's Farming Supplies") {
 shop("The Shrimp and Parrot") {
     operated by "Alfonse the waiter"(793)
 
-    sell(0) of "Cod"(339)
+    sell(0) of {"Cod"(339)}
     sell(10) of {
         - "Herring"(347)
         - "Tuna"(361)
@@ -2073,16 +2073,16 @@ shop("The Shrimp and Parrot") {
 shop("The Spice Is Right") {
     operated by "Embalmer"(1980)
 
-    sell(10) of "Gnome spice"(2169)
-    sell(10) of "Curry leaf"(5970)
-    sell(30) of "Pot"(1931)
-    sell(30) of "Antipoison(3)"(175)
+    sell(10) of {"Gnome spice"(2169)}
+    sell(10) of {"Curry leaf"(5970)}
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Antipoison(3)"(175)}
 }
 
 shop("Tony's Pizza Bases") {
     operated by "Fat Tony"(596)
 
-    sell(10) of "Pizza base"(2283)
+    sell(10) of {"Pizza base"(2283)}
 }
 
 shop("Torrell's Farming Supplies") {
@@ -2114,9 +2114,9 @@ shop("Treznor's Farming Supplies") {
 shop("TzHaar-Hur-Lek's Ore and Gem Store") {
     operated by "TzHaar-Hur-Lek"(2622)
 
-    sell(2) of "Iron ore"(440)
-    sell(5) of "Tin ore"(438)
-    sell(5) of "Copper ore"(436)
+    sell(2) of {"Iron ore"(440)}
+    sell(5) of {"Tin ore"(438)}
+    sell(5) of {"Copper ore"(436)}
     sell(1) of {
         - "Uncut sapphire"(1623)
         - "Uncut emerald"(1621)
@@ -2142,8 +2142,8 @@ shop("TzHaar-Hur-Tel's Equipment Store") {
 shop("TzHaar-Mej-Roh's Rune Store") {
     operated by "TzHaar-Mej-Roh"(2623)
 
-    sell(100) of "Death rune"(560)
-    sell(300) of "Chaos rune"(562)
+    sell(100) of {"Death rune"(560)}
+    sell(300) of {"Chaos rune"(562)}
     sell(1000) of {
         - "Fire rune"(554)
         - "Water rune"(555)
@@ -2157,10 +2157,10 @@ shop("TzHaar-Mej-Roh's Rune Store") {
 shop("Vanessa's Farming Shop") {
     operated by "Vanessa"(2305)
 
-    sell(100) of "Plant pot"(5354)
-    sell(100) of "Bucket"(1925)
-    sell(300) of "Compost"(6032)
-    sell(30) of "Watering can"(5331)
+    sell(100) of {"Plant pot"(5354)}
+    sell(100) of {"Bucket"(1925)}
+    sell(300) of {"Compost"(6032)}
+    sell(30) of {"Watering can"(5331)}
     sell(0) of {
         - "Potato"(1942)
         - "Onion"(1957)
@@ -2230,9 +2230,9 @@ shop("William's Wilderness Cape Shop") {
 shop("Wydin's Food Store") {
     operated by "Wydin"(2721)
 
-    sell(0) of "Banana"(1963)
-    sell(0) of "Redberries"(1951)
-    sell(500) of "Pot of flour"(1933)
+    sell(0) of {"Banana"(1963)}
+    sell(0) of {"Redberries"(1951)}
+    sell(500) of {"Pot of flour"(1933)}
     sell(10) of {
         - "Raw beef"(2132)
         - "Raw chicken"(2138)
@@ -2277,8 +2277,8 @@ shop("Yrsa's Accoutrements") {
 shop("Zanaris General Store") {
     operated by "Fairy shop keeper"(534) and "Fairy shop assistant"(535)
 
-    sell(30) of "Pot"(1931)
-    sell(30) of "Bucket"(1925)
+    sell(30) of {"Pot"(1931)}
+    sell(30) of {"Bucket"(1925)}
     sell(10) of {
         - "Jug"(1935)
         - "Shears"(1735)
@@ -2362,21 +2362,21 @@ shop("Skulgrimen's Battle Gear") {
 shop("Oziach's Armour") {
     operated by "Oziach"(747)
 
-    sell(1) of "Rune platebody"(1127)
-    sell(1) of "Green d'hide body"(1135)
+    sell(1) of {"Rune platebody"(1127)}
+    sell(1) of {"Green d'hide body"(1135)}
 }
 
 shop("Happy Heroes' H'Emporium") {
     operated by "Helemos"(797)
 
-    sell(3) of "Dragon battleaxe"(1377)
-    sell(3) of "Dragon mace"(1434)
+    sell(3) of {"Dragon battleaxe"(1377)}
+    sell(3) of {"Dragon mace"(1434)}
 }
 
 shop("Kolodions Superior Magic Shop") {
     operated by "Valaine"(536)
 
-    sell(2) of "Climbing boots"(3105)
+    sell(2) of {"Climbing boots"(3105)}
 }
 
 shop("My Glove Collection") {
@@ -2398,6 +2398,6 @@ shop("My Glove Collection") {
 shop("Father Aereck Homeless Cat's") {
     operated by "Observatory professor"(488)
 
-    sell(1) of "Pet cat"(1561)
-    sell(1) of "Wily hellcat"(7585)
+    sell(1) of {"Pet cat"(1561)}
+    sell(1) of {"Wily hellcat"(7585)}
 }
