@@ -5,6 +5,6 @@ plugin {
             "tlf30",
     ]
     dependencies = [
-            "entity:spawn", "shops"
+            "shops"
     ]
 }
