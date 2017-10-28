@@ -4,4 +4,7 @@ plugin {
     authors = [
             "tlf30",
     ]
+    dependencies = [
+            "entity:spawn", "shops"
+    ]
 }
