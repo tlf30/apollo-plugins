@@ -75,7 +75,7 @@ shop("Ak-Haranu's Exotic Shop") {
 
 shop("Al Kharid General Store") {
     operated by "Shop keeper"(524) and "Shop assistant"(525)
-    buys all items
+    buys any items
 
     sell(30) of "Bucket"(1925)
     sell(30) of "Pot"(1931)
@@ -93,7 +93,7 @@ shop("Al Kharid General Store") {
 
 shop("Ali the Carter") {
     operated by "Ali the Carter"(3030)
-    buys all items
+    buys any items
 
     sell(1000) of "Waterskin(4)"(1823)
 }
@@ -262,7 +262,7 @@ shop("Auhentic Throwing Weapons") {
 
 shop("Bandit Bargains") {
     operated by "Bandit shopkeeper"(1917)
-    buys all items
+    buys any items
 
     sell(30) of "Waterskin(0)"(1831)
     sell(30) of "Waterskin(4)"(1823)
@@ -288,7 +288,7 @@ shop("Bandit Camp Bar") {
 
 shop("Bandit Duty Free") {
     operated by "Noterazzo"(597)
-    buys all items
+    buys any items
 
     sell(30) of "Pot"(1931)
     sell(10) of {
@@ -397,7 +397,7 @@ shop("Bob's Brilliant Axes") {
 
 shop("Bolkoy's Village Shop") {
     operated by "Bolkoy"(471)
-    buys all items
+    buys any items
 
     sell(1000) of "Bronze arrow"(882)
     sell(30) of "Pot"(1931)
@@ -457,7 +457,7 @@ shop("Brian's Battleaxe Bazaar") {
 
 shop("Burthorpe Supplies") {
     operated by "Wistan"(1083)
-    buys all items
+    buys any items
 
     sell(30) of "Pot"(1931)
     sell(30) of "Bucket"(1925)
@@ -522,7 +522,7 @@ shop("Daga's Scimitar Smithy") {
 
 shop("Dal's General Ogre Supplies") {
     operated by "Ogre trader"(873)
-    buys all items
+    buys any items
 
     sell(30) of "Pot"(1931)
     sell(30) of "Bucket"(1925)
@@ -676,7 +676,7 @@ shop("Drogo's Mining Emporium") {
 
 shop("Dwarven Shopping Store") {
     operated by "Dwarf"(582)
-    buys all items
+    buys any items
 
     sell(10) of {
         - "Jug"(1935)
@@ -693,7 +693,7 @@ shop("Dwarven Shopping Store") {
 
 shop("Edgeville General Store") {
     operated by "Shop keeper"(520) and "Shop assistant"(521)
-    buys all items
+    buys any items
 
     sell(30) of "Bucket"(1925)
     sell(30) of "Pot"(1931)
@@ -792,7 +792,7 @@ shop("Etceteria Fish") {
 
 shop("Falador General Store") {
     operated by "Shop keeper"(526) and "Shop assistant"(527)
-    buys all items
+    buys any items
 
     sell(30) of "Bucket"(1925)
     sell(30) of "Pot"(1931)
@@ -1037,7 +1037,7 @@ shop("Gem Trader") {
 
 shop("Canifis General Store") {
     operated by "Fidelio"(1040)
-    buys all items
+    buys any items
 
     sell(1000) of "Thread"(1734)
     sell(30) of "Bucket"(1925)
@@ -1195,7 +1195,7 @@ shop("Gulluck and Sons") {
 
 shop("Gunslik's Assorted Supplies") {
     operated by "Gunslik"(2154)
-    buys all items
+    buys any items
 
     sell(300) of "Vial"(229)
     sell(30) of "Bucket"(1925)
@@ -1401,7 +1401,7 @@ shop("Jukat's Weapons") {
 
 shop("Karamja General Store") {
     operated by "Shop keeper"(532)
-    buys all items
+    buys any items
 
     sell(30) of "Pot"(1931)
     sell(30) of "Bucket"(1925)
@@ -1464,7 +1464,7 @@ shop("Kragen's Farming Supplies") {
 
 shop("Legends' Guild General Store") {
     operated by "Fionella"(932)
-    buys all items
+    buys any items
 
     sell(10) of {
         - "Swordfish"(373)
@@ -1489,7 +1489,7 @@ shop("Louie's Armoured Legs Bazaar") {
 
 shop("Lumbridge General Store") {
     operated by "Shop keeper"(528) and "Shop assistant"(529)
-    buys all items
+    buys any items
 
     sell(30) of "Pot"(1931)
     sell(30) of "Bucket"(1925)
@@ -1633,7 +1633,7 @@ shop("Pie Shop") {
 
 shop("Pollnivneach General Store") {
     operated by "Market seller"(1866)
-    buys all items
+    buys any items
 
     sell(10) of {
         - "Jug"(1935)
@@ -1656,7 +1656,7 @@ shop("Pollnivneach General Store") {
 
 shop("Port Phasmatys General Store") {
     operated by "Ghost shopkeeper"(1699)
-    buys all items
+    buys any items
 
     sell(300) of "Pot"(1931)
     sell(300) of "Bucket"(1925)
@@ -1749,7 +1749,7 @@ shop("Rasolo the Wandering Merchant") {
 
 shop("Razmire General Store") {
     operated by "Razmire Keelgan"(1254)
-    buys all items
+    buys any items
 
     sell(500) of "Olive oil(3)"(3424)
     sell(300) of "Vial of water"(227)
@@ -1993,7 +1993,7 @@ shop("Selena's Farming Supplies") {
 
 shop("Sigmund the Merchant") {
     operated by "Sigmund The Merchant"(1282)
-    buys all items
+    buys any items
 
     sell(30) of "Pot"(1931)
     sell(30) of "Bucket"(1925)
