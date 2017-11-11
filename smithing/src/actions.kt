@@ -144,7 +144,6 @@ class OpenSmithingAction(
             return
         }
 
-
         //Setup inventory registrations
         var col0: Inventory
         var col1: Inventory
@@ -285,21 +284,8 @@ class OpenSmithingAction(
                 }
             }
         }
-        //Register inventories
-        //println("COL 0")
-        //col0.items.forEach { if (it != null) {println(it.id)} }
-        //println("COL 1")
-        //col1.items.forEach { if (it != null) {println(it.id)} }
-        //println("COL 2")
-        //col2.items.forEach { if (it != null) {println(it.id)} }
-        //println("COL 3")
-        //col3.items.forEach { if (it != null) {println(it.id)} }
-        //println("COL 4")
-        //col4.items.forEach { if (it != null) {println(it.id)} }
 
-
-        //Set interface item's text
-
+        //Open UI in client
         mob.interfaceSet.openWindow(addInventoryListeners(mob), Interface.INTERFACE_SMITHING)
         //
         stop()
@@ -321,6 +307,3 @@ class OpenSmithingAction(
         }
     }
 }
-
-
-
