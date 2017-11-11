@@ -115,6 +115,7 @@ class SmithingAction(
                 val itemName  = ItemDefinition.lookup(item.id).name
                 val barName = ItemDefinition.lookup(item.bars.bar.id).name
                 mob.inventory.remove(item.bars.bar.id, item.bars.amount)
+                mob.smithing.experience += item.xp
                 mob.sendMessage("You hammer the " + barName + " to make " + itemName)
             }
             //
