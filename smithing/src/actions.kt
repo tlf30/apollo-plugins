@@ -160,11 +160,7 @@ class OpenSmithingAction(
             col3 = Inventory(5)
             col4 = Inventory(5)
             playersInvs.add(PlayerInvs(mob, col0, col1, col2, col3, col4))
-            ItemVerificationHandler.addInventory(Interface.COLUMN_0) { col0 }
-            ItemVerificationHandler.addInventory(Interface.COLUMN_1) { col1 }
-            ItemVerificationHandler.addInventory(Interface.COLUMN_2) { col2 }
-            ItemVerificationHandler.addInventory(Interface.COLUMN_3) { col3 }
-            ItemVerificationHandler.addInventory(Interface.COLUMN_4) { col4 }
+
         } else {
             col0 = playerInvs.inv0
             col1 = playerInvs.inv1
@@ -324,7 +320,7 @@ class OpenSmithingAction(
             playersActive.remove(player)
         }
     }
-
-
 }
+
+
 
