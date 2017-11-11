@@ -1,5 +1,6 @@
 import org.apollo.game.message.handler.ItemVerificationHandler
 import org.apollo.game.message.impl.*
+import org.apollo.game.model.Position
 import org.apollo.game.model.entity.Player
 import org.apollo.game.model.inv.Inventory
 import org.apollo.game.scheduling.ScheduledTask
@@ -12,43 +13,40 @@ start {
     ItemVerificationHandler.addInventory(Interface.COLUMN_4, PlayerInventorySupplier(Interface.COLUMN_4))
 }
 
-//Listeners for smelting
-data class SmeltingWrapper(val player: Player, val bar: Bar)
+
 
 on { ObjectActionMessage::class }
         .where { furnaces.contains(id) }
         .then {
             //println("Furnace interaction")
             it.startAction(OpenFurnaceAction(it, position))
+            waitingForAmount.add(SmeltingWrapper(it, null, position))
             terminate()
         }
 
 on { ButtonMessage::class }
         .where { FurnaceSelection.values().any { it.widget == widgetId } }
         .then {
-            //println("Furnace select interaction")
-            println(widgetId)
-            //close ui for bar selection
-            it.send(CloseInterfaceMessage())
-            //Open ui for quantaty
-            it.send(EnterAmountMessage())
-            val bar = FurnaceSelection.values().first { it.widget == widgetId }.bar
-            waitingForAmount.add(SmeltingWrapper(it, bar))
-            //
-            terminate()
+            val wrapper = getPlayerWaiting(it)
+            if (wrapper != null) {
+                //close ui for bar selection
+                it.send(CloseInterfaceMessage())
+                //Open ui for quantaty
+                it.send(EnterAmountMessage())
+                val bar = FurnaceSelection.values().first { it.widget == widgetId }.bar
+                wrapper.bar = bar
+                //
+                terminate()
+            }
         }
-
-val waitingForAmount = HashSet<SmeltingWrapper>()
 
 on { EnteredAmountMessage::class }
         .then {
-            val player = it
-            if (waitingForAmount.any {it.player == player } ) {
-                //println("Got amount from player: " + amount)
-                val wrapper = waitingForAmount.first { it.player == player }
+            val wrapper = getPlayerWaiting(it)
+            if (wrapper != null) {
                 waitingForAmount.remove(wrapper)
                 //Run smelt action
-                it.startAction(SmeltingAction(it, wrapper.bar, amount))
+                it.startAction(SmeltingAction(it, wrapper.bar!!, amount, wrapper.pos))
                 //
                 terminate()
             }
@@ -71,7 +69,8 @@ on { ItemActionMessage::class }
             val item = getSmithingItem(id)
             if (item != null) {
                 it.interfaceSet.close()
-                it.startAction(SmithingAction(it, item, amount))
+                val invs = findPlayerInvs(it)!! //Cannot be null at this point
+                it.startAction(SmithingAction(it, item, amount, invs.pos))
                 terminate()
             }
 
