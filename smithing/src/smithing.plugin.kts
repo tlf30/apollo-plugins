@@ -4,6 +4,14 @@ import org.apollo.game.model.entity.Player
 import org.apollo.game.model.inv.Inventory
 import org.apollo.game.scheduling.ScheduledTask
 
+start {
+    ItemVerificationHandler.addInventory(Interface.COLUMN_0, PlayerInventorySupplier(Interface.COLUMN_0))
+    ItemVerificationHandler.addInventory(Interface.COLUMN_1, PlayerInventorySupplier(Interface.COLUMN_1))
+    ItemVerificationHandler.addInventory(Interface.COLUMN_2, PlayerInventorySupplier(Interface.COLUMN_2))
+    ItemVerificationHandler.addInventory(Interface.COLUMN_3, PlayerInventorySupplier(Interface.COLUMN_3))
+    ItemVerificationHandler.addInventory(Interface.COLUMN_4, PlayerInventorySupplier(Interface.COLUMN_4))
+}
+
 //Listeners for smelting
 data class SmeltingWrapper(val player: Player, val bar: Bar)
 
