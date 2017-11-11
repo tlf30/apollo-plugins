@@ -1,3 +1,4 @@
+import org.apollo.game.message.handler.ItemVerificationHandler
 import org.apollo.game.model.entity.Player
 import org.apollo.game.model.inv.Inventory
 
@@ -334,4 +335,24 @@ fun amountFromOption(option: Int): Int {
         3 -> 10
         else -> throw IllegalArgumentException("Option must be 1-4")
     }
+}
+
+class PlayerInventorySupplier(val column: Int) : ItemVerificationHandler.InventorySupplier {
+
+    override fun getInventory(player: Player): Inventory? {
+        val invs = findPlayerInvs(player)
+        if (invs == null) {
+            return null
+        }
+        val inv = when (column) {
+            Interface.COLUMN_0 -> invs.inv0
+            Interface.COLUMN_1 -> invs.inv1
+            Interface.COLUMN_2 -> invs.inv2
+            Interface.COLUMN_3 -> invs.inv3
+            Interface.COLUMN_4 -> invs.inv4
+            else -> null
+        }
+        return inv
+    }
+
 }
