@@ -259,7 +259,6 @@ object Interface  {
     const val TEXT_CANNON_BALL_BARS = 1132 //Steel
 
     //Names Text in UI
-    //Bars Text in UI
     const val TEXT_PLATE_BODY_NAME = 1101
     const val TEXT_PLATE_LEGS_NAME = 1099
     const val TEXT_PLATE_SKIRT_NAME = 1100
@@ -328,13 +327,11 @@ fun findPlayerInvs(player: Player): PlayerInvs? {
     return null;
 }
 
-fun amountFromOption(option: Int): Int {
-    return when (option) {
-        1 -> 1
-        2 -> 5
-        3 -> 10
-        else -> throw IllegalArgumentException("Option must be 1-4")
-    }
+fun amountFromOption(option: Int): Int = when (option) {
+    1 -> 1
+    2 -> 5
+    3 -> 10
+    else -> throw IllegalArgumentException("Option must be 1-3")
 }
 
 class PlayerInventorySupplier(val column: Int) : ItemVerificationHandler.InventorySupplier {
