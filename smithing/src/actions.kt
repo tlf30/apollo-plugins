@@ -117,6 +117,8 @@ class SmithingAction(
                 mob.inventory.remove(item.bars.bar.id, item.bars.amount)
                 mob.smithing.experience += item.xp
                 mob.sendMessage("You hammer the " + barName + " to make " + itemName)
+            } else {
+                stop()
             }
             //
             crafted++
@@ -278,12 +280,11 @@ class OpenSmithingAction(
         }
         //update item grid
         for (column in 0..4) {
-            for (row in 0..4) {
-                if (!itemGrid[column][row]) {
-                    //val itm = SlottedItem(row, Item(79, 0))
-                    mob.send(UpdateSlottedItemsMessage(column + 1119, SlottedItem(row, null)))
-                }
-            }
+            (0..4).filterNot { itemGrid[column][it] }
+                    .forEach {
+                        //val itm = SlottedItem(row, Item(79, 0))
+                        mob.send(UpdateSlottedItemsMessage(column + 1119, SlottedItem(it, null)))
+                    }
         }
 
         //Open UI in client
