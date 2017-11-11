@@ -40,7 +40,8 @@ class OpenFurnaceAction(
 class SmeltingAction(
         player: Player,
         private val bar: Bar,
-        private val amount: Int
+        private val amount: Int,
+        private val pos: Position
 ) : AsyncAction<Player>(0, true, player) {
 
     override fun action(): ActionBlock = {
@@ -61,6 +62,7 @@ class SmeltingAction(
             //start smelt
             mob.playAnimation(Animation(SMELTING_ANIMATION))
             //mob.send(SendPlaySoundMessage(SMELTING_SOUND, 0, 0))
+            mob.turnTo(pos)
 
             //Wait while it is being smelted
             wait(4) //Delay of 4
@@ -82,7 +84,8 @@ class SmeltingAction(
 class SmithingAction(
         player: Player,
         private val item: SmithingItem,
-        private val amount: Int
+        private val amount: Int,
+        private val pos: Position
 ) : AsyncAction<Player>(0, true, player) {
 
     override fun action(): ActionBlock = {
@@ -109,6 +112,7 @@ class SmithingAction(
             //Set animation and sound
             mob.playAnimation(Animation(SMITHING_ANIMATION))
             //mob.send(SendPlaySoundMessage(SMITHING_SOUND, 0, 0))
+            mob.turnTo(pos)
             //
             wait(4)
             if (mob.inventory.add(item.id, item.makes) == 0) {
@@ -161,7 +165,7 @@ class OpenSmithingAction(
             col2 = Inventory(5)
             col3 = Inventory(5)
             col4 = Inventory(5)
-            playersInvs.add(PlayerInvs(mob, col0, col1, col2, col3, col4))
+            playersInvs.add(PlayerInvs(mob, col0, col1, col2, col3, col4, position))
 
         } else {
             col0 = playerInvs.inv0
