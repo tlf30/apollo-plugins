@@ -204,14 +204,7 @@ enum class SmithingItem(val id: Int,val makes: Int, val xp: Double, val level: I
     RUNITE_PLATEBODY(1127, 1, 375.0, 99, BarAmount(Bar.RUNITE, 5 ), Interface.TEXT_PLATE_BODY_BARS, Interface.TEXT_PLATE_BODY_NAME, Interface.COLUMN_2, Interface.SLOT_3),
 }
 
-fun getSmithingItem(id: Int): SmithingItem? {
-    for (item in SmithingItem.values()) {
-        if (item.id == id) {
-            return item;
-        }
-    }
-    return null;
-}
+fun getSmithingItem(id: Int): SmithingItem? = SmithingItem.values().firstOrNull { it.id == id }
 
 object Interface  {
     const val MODEL_BRONZE = 2405
@@ -318,14 +311,7 @@ val playersActive = mutableListOf<Player>()
 val playersInvs = mutableListOf<PlayerInvs>()
 data class PlayerInvs(val player: Player, val inv0: Inventory, val inv1: Inventory, val inv2: Inventory, val inv3: Inventory, val inv4: Inventory)
 
-fun findPlayerInvs(player: Player): PlayerInvs? {
-    for (invs in playersInvs) {
-        if (invs.player == player) {
-            return invs;
-        }
-    }
-    return null;
-}
+fun findPlayerInvs(player: Player): PlayerInvs? = playersInvs.firstOrNull { it.player == player }
 
 fun amountFromOption(option: Int): Int = when (option) {
     1 -> 1
@@ -337,11 +323,8 @@ fun amountFromOption(option: Int): Int = when (option) {
 class PlayerInventorySupplier(val column: Int) : ItemVerificationHandler.InventorySupplier {
 
     override fun getInventory(player: Player): Inventory? {
-        val invs = findPlayerInvs(player)
-        if (invs == null) {
-            return null
-        }
-        val inv = when (column) {
+        val invs = findPlayerInvs(player) ?: return null
+       return when (column) {
             Interface.COLUMN_0 -> invs.inv0
             Interface.COLUMN_1 -> invs.inv1
             Interface.COLUMN_2 -> invs.inv2
@@ -349,7 +332,7 @@ class PlayerInventorySupplier(val column: Int) : ItemVerificationHandler.Invento
             Interface.COLUMN_4 -> invs.inv4
             else -> null
         }
-        return inv
+        
     }
 
 }
