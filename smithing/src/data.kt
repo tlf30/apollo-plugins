@@ -1,4 +1,5 @@
 import org.apollo.game.message.handler.ItemVerificationHandler
+import org.apollo.game.model.Position
 import org.apollo.game.model.entity.Player
 import org.apollo.game.model.inv.Inventory
 
@@ -7,6 +8,17 @@ import org.apollo.game.model.inv.Inventory
 My implementation of smithing does not include anything from any quests.
 Quests will have to add the smithing items as needed.
  */
+
+//Listeners for smelting
+data class SmeltingWrapper(val player: Player, var bar: Bar?, val pos: Position)
+val waitingForAmount = HashSet<SmeltingWrapper>()
+
+fun getPlayerWaiting(player: Player): SmeltingWrapper? {
+    if (waitingForAmount.any {it.player == player } ) {
+        return waitingForAmount.first { it.player == player }
+    }
+    return null
+}
 
 enum class Ore(val id: Int) {
     CLAY(434),
@@ -309,7 +321,7 @@ enum class FurnaceSelection(val widget: Int, val bar: Bar) {
 
 val playersActive = mutableListOf<Player>()
 val playersInvs = mutableListOf<PlayerInvs>()
-data class PlayerInvs(val player: Player, val inv0: Inventory, val inv1: Inventory, val inv2: Inventory, val inv3: Inventory, val inv4: Inventory)
+data class PlayerInvs(val player: Player, val inv0: Inventory, val inv1: Inventory, val inv2: Inventory, val inv3: Inventory, val inv4: Inventory, val pos: Position)
 
 fun findPlayerInvs(player: Player): PlayerInvs? = playersInvs.firstOrNull { it.player == player }
 
@@ -324,7 +336,7 @@ class PlayerInventorySupplier(val column: Int) : ItemVerificationHandler.Invento
 
     override fun getInventory(player: Player): Inventory? {
         val invs = findPlayerInvs(player) ?: return null
-       return when (column) {
+        return when (column) {
             Interface.COLUMN_0 -> invs.inv0
             Interface.COLUMN_1 -> invs.inv1
             Interface.COLUMN_2 -> invs.inv2
@@ -332,7 +344,7 @@ class PlayerInventorySupplier(val column: Int) : ItemVerificationHandler.Invento
             Interface.COLUMN_4 -> invs.inv4
             else -> null
         }
-        
+
     }
 
 }
