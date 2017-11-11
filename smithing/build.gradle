@@ -1,0 +1,9 @@
+plugin {
+    name = "smithing-skill"
+    packageName = "org.apollo.game.plugin.skills.smithing"
+    authors = [
+            "tlf30"
+    ]
+
+    dependencies = ["api"]
+}
